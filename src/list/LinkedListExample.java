@@ -49,5 +49,6 @@ public class LinkedListExample {
         {
             System.out.println(l1);
         }
+
     }
 }

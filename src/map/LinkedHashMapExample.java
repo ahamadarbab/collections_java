@@ -36,5 +36,6 @@ public class LinkedHashMapExample {
         {
             System.out.println(m1.getKey() + " ---- " + m1.getValue());
         }
+
     }
 }

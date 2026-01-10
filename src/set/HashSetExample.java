@@ -9,7 +9,6 @@ public class HashSetExample {
         // Declaring HashSet
         Set<String> set1 = new HashSet<>();
 
-
         // adding elements in the HashSet
         set1.add("Guava");
         set1.add("Mango");
@@ -23,13 +22,11 @@ public class HashSetExample {
 
         System.out.println("Elements of set1 are : " + set1);
 
-
         // removing elements from the HashSet
         set1.remove("Guava");
         set1.remove("Mango");
 
         System.out.println("set1 after deleting 2 elements : " + set1);
-
 
         // traverse HashSet using foreach
         System.out.println("Traversing HashSet using foreach : ");

@@ -1,6 +1,5 @@
 package set;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -9,7 +8,6 @@ public class LinkedHashSetExample {
 
         // Declaring LinkedHashSet
         Set<String> set1 = new LinkedHashSet<>();
-
 
         // adding elements in the LinkedHashSet
         set1.add("Guava");
@@ -24,13 +22,11 @@ public class LinkedHashSetExample {
 
         System.out.println("Elements of set1 are : " + set1);
 
-
         // removing elements from the LinkedHashSet
         set1.remove("Guava");
         set1.remove("Mango");
 
         System.out.println("set1 after deleting 2 elements : " + set1);
-
 
         // traverse LinkedHashSet using foreach
         System.out.println("Traversing LinkedHashSet using foreach : ");
@@ -38,5 +34,6 @@ public class LinkedHashSetExample {
         {
             System.out.println(s1);
         }
+
     }
 }

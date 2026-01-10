@@ -1,6 +1,5 @@
 package set;
 
-import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -9,7 +8,6 @@ public class TreeSetExample {
 
         // Declaring TreeSet
         Set<String> set1 = new TreeSet<>();
-
 
         // adding elements in the TreeSet
         set1.add("Guava");
@@ -23,13 +21,11 @@ public class TreeSetExample {
 
         System.out.println("Elements of set1 are : " + set1);
 
-
         // removing elements from the TreeSet
         set1.remove("Guava");
         set1.remove("Mango");
 
         System.out.println("set1 after deleting 2 elements : " + set1);
-
 
         // traverse TreeSet using foreach
         System.out.println("Traversing TreeSet using foreach : ");
@@ -37,5 +33,6 @@ public class TreeSetExample {
         {
             System.out.println(s1);
         }
+
     }
 }

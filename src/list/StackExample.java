@@ -34,5 +34,6 @@ public class StackExample {
         {
             System.out.println(s1);
         }
+
     }
 }
